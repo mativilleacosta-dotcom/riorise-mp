@@ -1,0 +1,15 @@
+{
+  "name": "riorise-mp-server",
+  "version": "1.0.0",
+  "description": "Riorise multiplayer prototype server (Express + Socket.io)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "mativilleacosta-dotcom",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}

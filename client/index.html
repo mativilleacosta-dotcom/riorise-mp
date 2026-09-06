@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Riorise MP - Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Phaser 3 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <!-- socket.io client (served from server) -->
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="ui">
+    <div id="hud">
+      <div id="playerName">Conectando...</div>
+      <div id="faction">Faction: -</div>
+      <div id="healthBar"><div id="healthInner"></div></div>
+    </div>
+    <div id="actions">
+      <button id="selfHealBtn">Curar Self</button>
+      <button id="allyHealBtn">Curar Ally</button>
+    </div>
+    <div id="log"></div>
+  </div>
+  <div id="gameContainer"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>

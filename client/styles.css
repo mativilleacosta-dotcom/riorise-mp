@@ -1,0 +1,12 @@
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+body{margin:0;background:#88c0ff}
+#ui{position:fixed;left:12px;top:12px;z-index:20;color:#042}
+#hud{background:rgba(255,255,255,0.9);padding:8px;border-radius:8px;min-width:180px}
+#playerName{font-weight:700}
+#faction{opacity:0.9}
+#healthBar{width:160px;height:16px;background:#ddd;border-radius:8px;margin-top:6px;overflow:hidden}
+#healthInner{height:100%;width:100%;background:linear-gradient(90deg,#4ade80,#16a34a)}
+#actions{position:fixed;right:12px;top:12px;display:flex;flex-direction:column;gap:8px}
+#actions button{padding:10px 14px;border-radius:8px;border:none;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.12);cursor:pointer}
+#log{position:fixed;left:12px;bottom:12px;background:rgba(255,255,255,0.9);padding:8px;border-radius:8px;max-width:320px;max-height:160px;overflow:auto}
+#gameContainer{width:800px;height:400px;margin:40px auto;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.12)}
